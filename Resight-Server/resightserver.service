@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve flaskapp
+After=network.target
+
+[Service]
+User=yj
+Group=www-data
+WorkingDirectory=/home/yj/resightserver
+Environment="PATH=/home/yj/resightserver/env/bin"
+ExecStart=/home/yj/resightserver/env/bin/uwsgi --ini resightserver.ini
+
+[Install]
+WantedBy=multi-user.target

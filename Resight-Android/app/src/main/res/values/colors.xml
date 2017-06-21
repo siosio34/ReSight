@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F2F2F2</color>
+    <color name="colorPrimaryDark">#A9A9A9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBottomNavigation">#ACACAC</color>
+    <color name="colorBloothMenu">#FFFFFF</color>
+
+
+    <!--  test and train mode bottom Button -->
+
+    <color name="colorTestModeButtonBottom">#595959</color>
+    <color name="colorTrainModeButtonBottom">#ACACAC</color>
+
+</resources>
